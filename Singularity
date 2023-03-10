@@ -167,6 +167,8 @@ From: ubuntu:20.04
   R --slave -e 'devtools::install_github("powellgenomicslab/scPred")'
   R --slave -e 'devtools::install_github("gaospecial/ggVennDiagram")'
   R --slave -e 'devtools::install_github("twbattaglia/MicrobeDS")'
+  R --slave -e 'devtools::install_github("satijalab/seurat-data")'
+  R --slave -e 'devtools::install_github("mojaveazure/seurat-disk")'
 
   # Clean up
   rm -rf /var/lib/apt/lists/*
